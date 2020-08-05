@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Travler</title>
+	
+	<!-- favicon.ico -->
+	<link rel="icon" href="img/logo.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<!-- Customize css -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body style="background-color: #EBEBEB;">
+	<div id="menu" class="menu no-show text-center d-inline d-md-none">
+		<div class="container" style="margin-top: 5rem;">
+			<a href="#" class="text-secondary">
+				<i class="fas fa-biking text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5">Services</p>
+			</a>
+			<a href="#" class="text-secondary">
+				<i class="fas fa-space-shuttle text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5">Services</p>
+			</a>
+			<a href="#" class="text-secondary">
+				<i class="fas fa-file-alt text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5">About</p>
+			</a>
+			<a href="#" class="text-secondary">
+				<i class="fas fa-map-marker-alt text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5">The Tour</p>
+			</a>
+			<a href="#" class="text-secondary">
+				<i class="fas fa-biking text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5">How to</p>
+			</a>
+			<a href="#" class="text-secondary">
+				<i class="fas fa-file-alt text-secondary pt-2" style="font-size: 24px;"></i>
+				<p class="text-secondary font-weight-bold h5 pb-4">Contact</p>
+			</a>
+		</div>
+	</div>
+	<div class="menu-icon-wrapper collapsed d-inline d-md-none">
+		<div class="menu-icon" id="menu-icon"></div>
+	</div>
+	<header>
+		<div class="container-lg pt-5">
+			<div class="row">
+				<div class="col-sm-2 col-md-4 px-0">
+					<img src="img/logo.png" alt="logo" class="pr-2">
+					<span class="flex-column" style="position: absolute; top: -15px;">	
+						<span class="font-weight-bold h2 travler d-inline d-sm-none d-md-inline">travler</span><br>
+						<span class="small text-muted font-italic d-inline d-sm-none d-md-inline">Get the advice you need about travel</span>		
+					</span>			
+				</div>
+				<div class="col-sm-5 col-md-4 px-0 d-flex align-items-center pt-4 pt-sm-0 justify-content-center">
+					<span class="br pr-3 mr-3">
+						<span class="font-weight-bold text-secondary">Quicklinks</span>
+						<img src="img/mesto.png" alt="mesto">
+					</span>
+					<span class="dropdown">
+						<a href="#" class="drop font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select from dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</span>
+				</div>
+				<div class="col-sm-4 px-0 d-flex align-items-center pt-3">
+					<div class="input-group mb-2">
+						<input type="search" class="form-control border-0 rounded-0 px-4 py-3" id="inlineFormInputGroup" placeholder="Search for somthing here">							  
+						<div class="input-group-prepend">
+							<div class="input-group-text bg-white border-0"><img src="img/clock.png"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-2 pt-3 pt-lg-0">
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header border-bottom-header-1">
+						<i class="fas fa-biking text-secondary text-magenta" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5 text-magenta">Services</p>
+					</div>
+				</a>
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header">
+						<i class="fas fa-space-shuttle text-secondary" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5">Services</p>
+					</div>
+				</a>
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header">
+						<i class="fas fa-file-alt text-secondary" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5">About</p>
+					</div>
+				</a>
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header">
+						<i class="fas fa-map-marker-alt text-secondary" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5">The Tour</p>
+					</div>
+				</a>
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header">
+						<i class="fas fa-biking text-secondary" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5">How to</p>
+					</div>
+				</a>
+				<a href="#" class="col-2 px-0 text-secondary header-location d-none d-md-inline text-decoration-none">
+					<div id="border-bottom-header" class="text-center py-5 mt-4 border-bottom-header">
+						<i class="fas fa-file-alt text-secondary" style="font-size: 24px;"></i>
+						<p class="text-secondary font-weight-bold h5">Contact</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</header>
+	<div class="container-fluid py-5 bg-image d-flex justify-content-center top-margin-md width-max">
+		<img src="img/icon.png" alt="travler" style="opacity: 0.8;" class="align-self-center">
+	</div>
+	<div class="container-fluid" style="background-color: #2D2D2D">
+		<div class="container text-center">
+			<h2 class="text-white font-weight-normal text-center pt-4">Anywhere, anytime, where here to help.</h2>
+			<h5 class="font-weight-normal text-center text-magenta py-3">And we mean that.</h5>
+			<img src="img/map.png" alt="map" class="width-max">
+		</div>
+		<div class="container-lg pb-4">
+			<div class="py-5 text-center">
+				<img src="img/multiply.png" alt="multiply" class="width-max" width="800">
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="text-white font-weight-normal">Save Time</h3>
+					<p class="text-white text-justify">
+						Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. Gutful of jug where as busy as a big smoke. Grab us a billy as cunning as a bull bar. As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="text-white font-weight-normal">Win over the team</h3>
+					<p class="text-white text-justify">
+						As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo. Built like a old fella no dramas grab us a ten clicks away.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="text-white font-weight-normal">Design Features</h3>
+					<p class="text-white text-justify">
+						Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack. A old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center" style="background-color: #222222">
+		<img src="img/display.png" alt="map" class="width-max" style="padding-top: 4rem;">
+	</div>
+	<div class="container-fluid mt-5">
+		<div class="container-lg">
+			<div class="horizontal-line text-secondary text-center py-5">
+				<span class="font-weight-normal h1">A humble Team we are</span>
+				<p class="font-weight-bold">We’ll some of us anyways</p>
+			</div>
+			<div class="row pt-5">
+				<div class="col-sm-6 col-md-3">
+					<div class="width">
+						<img src="img/human-1.jpg" alt="human-1" class="width img">
+						<a href="#">
+							<img src="img/bird.jpg" alt="bird" class="width img-bird">
+						</a>
+					</div>
+					<div class="pt-4">
+						<h5 class="text-secondary">Josh Jansen</h5>
+						<p class="text-secondary">Digital Producer</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="width">
+						<img src="img/human-2.jpg" alt="human-1" class="width img">
+						<a href="#">
+							<img src="img/bird.jpg" alt="bird" class="width img-bird">
+						</a>
+					</div>
+					<div class="pt-4">
+						<h5 class="text-secondary">Blaz Robar</h5>
+						<p class="text-secondary">Designer</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="width">
+						<img src="img/human-3.jpg" alt="human-1" class="width img">
+						<a href="#">
+							<img src="img/bird.jpg" alt="bird" class="width img-bird">
+						</a>
+					</div>
+					<div class="pt-4">
+						<h5 class="text-secondary">James Brown</h5>
+						<p class="text-secondary">Developer</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="width">
+						<img src="img/human-4.jpg" alt="human-1" class="width img">
+						<a href="#">
+							<img src="img/bird.jpg" alt="bird" class="width img-bird">
+						</a>
+					</div>
+					<div class="pt-4">
+						<h5 class="text-secondary">Skeletor</h5>
+						<p class="text-secondary">Administration</p>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-5">
+				<div class="col-md-6">
+					<div class="card rounded-0 border-0 p-2 p-sm-5">
+						<div class="card-body">
+							<h2 class="card-title">Winning Design Awards</h2>
+							<p class="card-text text-magenta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + </p>
+							<p class="text-secondary pt-4 pb-5">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card rounded-0 border-0 p-2 p-sm-5">
+						<div class="card-body">
+							<h2 class="card-title">Badass Features</h2>
+							<p class="card-text text-magenta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + </p>
+							<p class="text-secondary pt-4 pb-5">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-4">
+				<div class="col-12">
+					<div class="card rounded-0 border-0 p-2 p-sm-5">
+						<div class="card-body">
+							<h2 class="card-title">A full col text box sits nicely like this</h2>
+							<p class="card-text text-magenta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + </p>
+							<p class="text-secondary pt-4 pb-5">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid border-footer mt-5" style="background-color: #373737">
+			<div class="container-lg pt-4">
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/logo_white.png" alt="logo" class="pr-2">
+						<span class="flex-column" style="position: absolute; top: -6px;">
+							<span class="font-weight-bold text-white h2">travler</span><br>
+							<span class="small text-white font-italic">Get the advice you need about travel</span>		
+						</span>
+						<div class="pt-4 text-white" style="font-size: 12px">
+							Trent from punchy digger bloody gutful of mokkies. Get a dog up ya fair dinkum mate as cross as a flake. Stands out like a bluey flamin stands out like a pot. As stands out like christmas to grab us a ugg boots. She'll be right buckley's chance my as stands out like divvy van. It'll be smokes trent from punchy chewie. It'll be gone walkabout flamin we're going roo bar. Shazza got us some mickey mouse mate flamin it'll be rort. We're going freo with grab us a his blood's worth bottling. Lets throw a stubby when mad as a rubbish. Gutful of battler mate lets throw a sanger.
+						</div>
+					</div>
+					<div class="col-sm-6 pt-4">
+						<ul class="mb-lg-5 mb-3 pl-3">
+							<li class="list-style-none li-footer">
+								<a href="#link" class="text-white font-weight-bold text-decoration-none link-footer">Portfolio</a>
+							</li>
+							<li class="list-style-none li-footer">
+								<a href="#link" class="text-white font-weight-bold text-decoration-none link-footer">Services</a>
+							</li>
+							<li class="list-style-none li-footer">
+								<a href="#link" class="text-white font-weight-bold text-decoration-none link-footer">Staff</a>
+							</li>
+							<li class="list-style-none li-footer">
+								<a href="#link" class="text-white font-weight-bold text-decoration-none link-footer">Articles</a>
+							</li>
+							<li class="list-style-none li-footer">
+								<a href="#link" class="text-white font-weight-bold text-decoration-none link-footer">Contact</a>
+							</li>
+						</ul>
+						<div class="row pt-3 pt-md-0">
+							<div class="col-lg-3 col-6 d-flex justify-content-center pt-2 px-0">
+								<a href="#1" class="text-decoration-none">
+									<span class="text-white font-weight-bold">
+										<i class="fab fa-twitter pr-1"></i>
+										Twitter
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-6 d-flex justify-content-center pt-2 px-0">
+								<a href="#2" class="text-decoration-none">
+									<span class="text-white font-weight-bold">
+										<i class="fab fa-facebook-f pr-1"></i>
+										Facebook
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-6 d-flex justify-content-center pt-2 px-0">
+								<a href="#3" class="text-decoration-none">
+									<span class="text-white font-weight-bold">
+										<i class="fas fa-rss pr-1"></i>
+										RSS
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-6 d-flex justify-content-center pt-2 px-0">
+								<a href="#4" class="text-decoration-none">
+									<span class="text-white font-weight-bold">
+										<i class="fas fa-envelope pr-1"></i>
+										Mail
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pt-4">
+					<ul style="padding-left: 0;">
+						<li class="list-style-none">
+							<a href="#" class="text-white text-decoration-none">About us</a>
+						</li>
+						<li class="list-style-none">
+							<a href="#" class="text-white text-decoration-none">Footer Links here</a>
+						</li>
+						<li class="list-style-none">
+							<a href="#" class="text-white text-decoration-none">Privasy</a>
+						</li>
+						<li class="list-style-none">
+							<a href="#" class="text-white text-decoration-none">Icons by http://www.dribbble.com/joshuaandrewdavies	</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pt-3 text-secondary" style="font-size: 12px; padding-bottom: 100px">
+					As cross as a hoon my built like a op shop. We're going bored sh*tless heaps she'll be right budgie smugglers. Grab us a durry mate she'll be right dunny rat. She'll be right larrikin with skite. As stands out like kero it'll be truckie.nch. Lets get some icy pole no dramas as cross as a ya.
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+
+	<!-- jQuery -->
+	<script src="js/jquery-slim.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Customize js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
